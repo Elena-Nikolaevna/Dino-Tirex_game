@@ -11,7 +11,7 @@
     background-image: url(img/pngegg.png);
     background-size: 50px 50px;
     position: relative;
-    top: 150px;
+    top: 155px;
 }
 
 
@@ -24,7 +24,7 @@
     top: 110px;
     left: 580px;
 
-    animation: cactusMov 1s infinite linear;
+    animation: cactusMov 1.5s infinite linear;
 }
 
 @keyframes cactusMov {
