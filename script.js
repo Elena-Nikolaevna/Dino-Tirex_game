@@ -1,4 +1,4 @@
-import { setupGround, updateGround } from "./ground.js";
+import {  updateGround, setupGround } from "./ground.js";
 
 const WORLD_WIDTH = 100;
 const WORLD_HEIGHT = 30;
@@ -13,7 +13,7 @@ setupGround();
 
 let lastTime;
 function update(time) {
-  if (lastTime === null) {
+  if (lastTime == null) {
     lastTime = time;
     window.requestAnimationFrame(update);
     return;
